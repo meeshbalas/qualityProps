@@ -5,14 +5,29 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="mx-auto max-w-4xl px-4 py-16">
-      <h1 className="text-4xl font-bold">Privacy Policy</h1>
-      <div className="mt-6 space-y-4 text-slate-300">
-        <p>This is placeholder privacy copy. Replace with your final policy before launch.</p>
-        <h2 className="text-xl font-semibold text-white">Data We Collect</h2>
-        <p>Account and usage data required to operate subscriptions.</p>
-        <h2 className="text-xl font-semibold text-white">How We Use Data</h2>
-        <p>To provide service features, billing, and support communications.</p>
+    <div className="container-shell py-16 md:py-20">
+      <h1 className="section-title">Privacy Policy</h1>
+      <div className="mt-6 space-y-6 text-slate-300 glass-card p-6 md:p-8">
+        <section>
+          <h2 className="text-lg font-semibold text-white">Information We Collect</h2>
+          <p className="mt-2">
+            We may collect account information, usage analytics, and billing-related details to operate the service.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-white">How We Use Information</h2>
+          <p className="mt-2">
+            Data is used to deliver product features, manage subscriptions, improve performance, and provide support.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-white">Security & Retention</h2>
+          <p className="mt-2">
+            We apply reasonable safeguards and retain data only as long as needed to provide the service.
+          </p>
+        </section>
       </div>
     </div>
   );
