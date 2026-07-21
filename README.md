@@ -1,0 +1,3 @@
+# qualityProps
+
+Initial commit.
